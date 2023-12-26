@@ -22,27 +22,72 @@ header {
 header img {
     display: block;
     margin: auto;
-    max-width: 800px;
-    min-width: 500px;
-    width: 80%;
 }
 nav {
     background-color: var(--color2);
     padding: 10px 10px 10px 0px;
-
 }
 nav > a {
     text-decoration: none;
     color: rgba(255, 255, 255, 0.604);
     font-weight: bold;
-    font-size: 1.3em;
+    font-size: 1.2em;
     width: 100%;
-    padding: 10px ;
-    border-radius: 5px;
-    
+    padding: 10px;
+    border-radius: 5px;    
 }
 nav > a:hover {
     background-color: rgba(154, 154, 154, 0.496);
     color: var(--color2);
     transition: .5s;
+}
+main {
+    background-color: var(--color3);
+    padding: 10px;
+    margin: auto;
+    max-width: 900px;
+    min-width: 330px;
+}
+main h1 {
+    font-size: 2.1em;
+    margin-bottom: 10px;
+}
+main h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+main p {
+    line-height: 25px;
+    font-size: 1.2em;
+    text-indent: 20px;
+    margin-bottom: 20px;
+}
+main img {
+    width: 100%;
+    max-width: 800px;
+    min-width: 400px;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+}
+main ol {
+    text-indent: 25px;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    list-style-position: inside;
+    columns: 2;
+}
+main div {
+    background-image: linear-gradient(to left, rgb(255, 255, 93, 0.544), transparent);
+    width: 60px;
+    border-radius: 15px;
+}
+main #dica {
+    display: none;
+}
+main :hover > #dica{
+    display: block;
+    background-color:white;
+    width: 300px;
+    border-radius: 0px 15px;
 }
