@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+:root {
+    --color1:#BD2A2E;
+    --color2:#3B3936;
+    --color3:#B2BEBF;
+    --color4:#889C9B;
+    --color5:#486966;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color:var(--color4);
+}
+header {
+    background-color: var(--color2);
+    padding: 20px;
+}
+header img {
+    display: block;
+    margin: auto;
+    max-width: 800px;
+    min-width: 500px;
+    width: 80%;
+}
+nav {
+    background-color: var(--color2);
+    padding: 10px 10px 10px 0px;
+
+}
+nav > a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.604);
+    font-weight: bold;
+    font-size: 1.3em;
+    width: 100%;
+    padding: 10px ;
+    border-radius: 5px;
+    
+}
+nav > a:hover {
+    background-color: rgba(154, 154, 154, 0.496);
+    color: var(--color2);
+    transition: .5s;
+}
